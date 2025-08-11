@@ -4,10 +4,10 @@
   "description": "Front-end mentor dictionary web app",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 8080"
-  },
+    "scripts": {
+  "start": "vite preview --host 0.0.0.0 --port $PORT",
+  "build": "vite build"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jefcooper/fem-dictionary-web-app.git"
