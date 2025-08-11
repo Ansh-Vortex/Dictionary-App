@@ -4,24 +4,26 @@
   "description": "Front-end mentor dictionary web app",
   "main": "index.js",
   "scripts": {
-    "scripts": {
-  "start": "vite preview --host 0.0.0.0 --port $PORT",
-  "build": "vite build"
-},
+    "start": "serve -s dist -l $PORT",
+    "build": "vite build"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jefcooper/fem-dictionary-web-app.git"
+    "url": "git+https://github.com/Ansh-Vortex/Dictionary-App.git"
   },
-  "author": "Jeff Cooper",
+  "author": "Ansh Gupta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jefcooper/fem-dictionary-web-app/issues"
+    "url": "https://github.com/Ansh-Vortex/Dictionary-App/issues"
   },
-  "homepage": "https://github.com/jefcooper/fem-dictionary-web-app#readme",
+  "homepage": "https://github.com/Ansh-Vortex/Dictionary-App#readme",
   "devDependencies": {
     "glob": "^8.0.3",
     "path": "^0.12.7",
     "sass": "^1.57.1",
     "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
   }
 }
